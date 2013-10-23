@@ -1,0 +1,14 @@
+development:
+  adapter: sqlite3
+  database: db/untitled.db
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: development
+  pool: 5
+  username: your@username.here
+  password: s3cr3t
+  host: localhost
