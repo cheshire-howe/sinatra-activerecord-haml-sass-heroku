@@ -90,4 +90,6 @@ To write plain css, it is recommended to create a new css file in the public/sty
 If you want to include a normalizing or reset css file, you'll have to put that straight into the stylesheets folder as well. The best way to remember all this IMO is that your app doesn't know about your sass files, it only knows about your css; rack looks in your sass folder and converts everything to css on the fly putting the resulting output in your stylesheets folder, while your app only looks in your stylesheets folder for regular css.
 In other words, the link in the head of your markup should always point to css.
 
+When I followed the instructions, this is what I got: http://secure-thicket-4056.herokuapp.com/
+
 Let me know if it doesn't work.
