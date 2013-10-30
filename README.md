@@ -1,10 +1,10 @@
-This is my starting point when I develop Sinatra Apps. It's all ready to go to use sass, haml, activerecord, sqlite3 in development mode on my local machine and postgres when deploying to heroku.
+This is my starting point when I develop Sinatra Apps. It's all ready to go to use sass, haml, activerecord, sqlite3 in development mode on my local machine and postgres when deploying to heroku. I've actually started to use slim, to switch from haml, just replace haml with slim everywhere you see it.
 
 Instructions
 
 I'm assuming you're all set up with Heroku, if not, it's not too hard. Go to http://heroku.com
 
-Place the folder wherever you want, rename it and cd to it. Go into the config folder and change the name of your database in both of these files,
+Place the folder wherever you want, rename it and cd to it. Go into the config folder and change the name of your database in both of these files (where it says untitled),
 ```
 database.yml
 environments.rb
