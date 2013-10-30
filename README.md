@@ -44,10 +44,10 @@ heroku create app_name_here
 After you have gotten your app up and running, you will have to start creating migrations. sinatra/activerecord doesn't have the full command-line functionality of rails, but you can create a migration by typing
 
 ```
-rake db:create_migration NAME=001_create_foos
+rake db:create_migration NAME=create_foos
 ```
 
-in a terminal, where foos is the pluralized name of the table. So for a Post model, you would have NAME=001_create_posts. The number indicates it is the first migration. Then fill out the migration file it creates. It works the old way of migrating up and down. To migrate up type
+in a terminal, where foos is the pluralized name of the table. So for a Post model, you would have NAME=create_posts. Then fill out the migration file it creates. It works the old way of migrating up and down. To migrate up type
 
 ```
 rake db:migrate
