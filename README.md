@@ -33,7 +33,7 @@ git push heroku master
 
 And your app will work, no questions asked.
 
-The rest is completely OPTIONAL !!!
+The rest is completely OPTIONAL
 
 To specify your own name on heroku, instead of typing heroku create, type in
 
