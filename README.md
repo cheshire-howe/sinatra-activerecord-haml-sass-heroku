@@ -85,11 +85,9 @@ For more info, visit https://github.com/janko-m/sinatra-activerecord
 
 
 If you use sass, put ur codez in the .sass file in the sass directory and sinatra will automatically generate the minified css. Use sass... it's the same as scss, just drop the curly braces and the semi-colons on the end of lines. So much nicer!
-If you're used to scss, just rename the sass file to whatever.scss or create a new scss file, and the sass/rack/plugin will automatically generate the css. Just remember to edit or add a new link in the layout.haml file so that it can find the new css file. (Same name as the sass or scss file, just put .css for the extension. This template comes setup to find style.css)
+If you're used to scss, just rename the sass file to whatever.scss or create a new scss file, and the sass/rack/plugin will automatically generate the css. Just remember that if you change the name, you have to edit or add a new link in the `layout.haml` file so that it can find the new css file. (Same name as the sass or scss file, just put .css for the extension. This template comes setup to find style.css)
 To write plain css, it is recommended to create a new css file in the public/stylesheets directory, so as not to interfere with the compilation of the sass files.
 If you want to include a normalizing or reset css file, you'll have to put that straight into the stylesheets folder as well. The best way to remember all this IMO is that your app doesn't know about your sass files, it only knows about your css; rack looks in your sass folder and converts everything to css on the fly putting the resulting output in your stylesheets folder, while your app only looks in your stylesheets folder for regular css.
 In other words, the link in the head of your markup should always point to css.
-
-When I followed the instructions, this is what I got: http://secure-thicket-4056.herokuapp.com/
 
 Let me know if it doesn't work.
